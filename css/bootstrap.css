@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #B5CFFF;
 }
 
 [tabindex="-1"]:focus {
@@ -5408,6 +5408,7 @@ button.close {
   display: none;
   overflow: hidden;
   outline: 0;
+ 
 }
 
 .modal-open .modal {
@@ -5527,11 +5528,23 @@ button.close {
   justify-content: flex-end;
   padding: 1rem;
   border-top: 1px solid #e9ecef;
+  
 }
 
-.modal-footer > :not(:first-child) {
-  margin-left: .25rem;
-}
+/*Pie De pagina*/
+footer{
+margin-right: .25rem
+max-width: 1000px;
+background: #000;
+margin: 0 auto;
+border-radius: 0 0 20px 20px;
+color: #FFFFFF;
+text-align: center;
+padding: 30px;
+box-sizing: border-box;
+font-family: arial;
+font-size: 18px;
+}	
 
 .modal-footer > :not(:last-child) {
   margin-right: .25rem;
